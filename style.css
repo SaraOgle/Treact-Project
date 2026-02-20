@@ -1211,7 +1211,9 @@ MOBILE RESPONSIVENESS
   .plan__button {
     max-width: none;
   }
-
+  .value__row {
+    flex-direction: column;
+  }
   .plan__bottom {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1355,6 +1357,9 @@ MOBILE RESPONSIVENESS
   #values .row {
     flex-direction: column-reverse;
   }
+  .value__row {
+    flex-direction: column;
+  }
   .quality__description,
   .steps__description,
   .values__description,
@@ -1363,7 +1368,10 @@ MOBILE RESPONSIVENESS
     margin-top: 64px;
     text-align: center;
   }
-  .quality__description,
+  h2 {
+    text-align: center;
+  }
+ .quality__description,
   .quality__img--wrapper,
   .steps__description,
   .steps__img--wrapper,
@@ -1432,6 +1440,9 @@ MOBILE RESPONSIVENESS
   }
   .container {
     padding: 80px 0;
+  }
+    h2 {
+    text-align: center;
   }
   .nav__logo {
     margin: 8px 0;
