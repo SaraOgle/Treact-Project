@@ -1255,6 +1255,9 @@ MOBILE RESPONSIVENESS
   .header__description--para {
     margin: 20px 0;
   }
+  h2 {
+    text-align: center;
+  }
   .header__customers {
     padding-right: 0px;
   }
@@ -1290,6 +1293,9 @@ MOBILE RESPONSIVENESS
   }
   .value {
     margin-top: 2.5rem;
+  }
+  .value__row {
+    flex-direction: column;
   }
 
   .values__list {
